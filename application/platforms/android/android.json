@@ -1,0 +1,47 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "res/xml/config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"PluginFirebaseGameplate\"><param name=\"android-package\" value=\"com.bonacogo.cordova.plugin.PluginFirebaseGameplate\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.bonacogo.gameplate"
+    },
+    "cordova-plugin-firebase-gameplate": {
+      "PACKAGE_NAME": "com.bonacogo.gameplate"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "cordova-plugin-firebase-gameplate.PluginFirebaseGameplate",
+      "file": "plugins/cordova-plugin-firebase-gameplate/www/PluginFirebaseGameplate.js",
+      "pluginId": "cordova-plugin-firebase-gameplate",
+      "clobbers": [
+        "PluginFirebaseGameplate"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "cordova-plugin-whitelist": "1.3.4",
+    "cordova-plugin-firebase-gameplate": "0.0.1"
+  }
+}

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp"
+    android:paddingBottom="10dp"
+    app:layout_constrainedWidth="true"
+    app:layout_constraintVertical_chainStyle="packed">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="10dp"
+        app:cardBackgroundColor="@color/secondaryLightColor"
+        app:cardCornerRadius="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_max="200dp"
+        app:layout_constraintWidth_min="140dp"
+        app:layout_goneMarginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="4dp"
+                android:orientation="horizontal"
+                android:paddingStart="5dp">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="171dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/poppins_medium"
+                    android:includeFontPadding="false"
+                    android:textColor="@color/black60"
+                    android:textSize="18sp"
+                    tools:text="Weekly" />
+
+                <ImageButton
+                    android:id="@+id/info_btn"
+                    android:layout_width="28dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/button_bg_03"
+                    android:tint="@color/secondaryDarkColor"
+                    app:srcCompat="@drawable/ic_info_outline_black" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <ImageView
+                    android:id="@+id/reward_bg"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/ic_reward_bg" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignStart="@id/reward_bg"
+                    android:layout_alignTop="@id/reward_bg"
+                    android:layout_alignEnd="@id/reward_bg"
+                    android:layout_alignBottom="@id/reward_bg"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/label_reward"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
+                        android:textColor="@color/black60"
+                        android:textSize="30sp"
+                        tools:text="-50%" />
+
+                    <ImageView
+                        android:id="@+id/img_reward"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        tools:src="@drawable/ic_ticket"
+                        tools:srcCompat="@drawable/ic_ticket" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="5dp">
+
+                <ImageView
+                    android:id="@+id/target"
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignTop="@id/label_target"
+                    android:layout_alignBottom="@id/label_target"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ic_target" />
+
+                <TextView
+                    android:id="@+id/label_target"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_toRightOf="@id/target"
+                    android:fontFamily="@font/poppins"
+                    android:gravity="center_vertical"
+                    android:singleLine="false"
+                    android:textColor="@color/black60"
+                    android:textSize="14sp"
+                    tools:text="Raggiungi il livello 60" />
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/days"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppins_medium"
+                        android:includeFontPadding="false"
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        tools:text="04" />
+
+
+                    <TextView
+                        android:id="@+id/hour"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppins_medium"
+                        android:includeFontPadding="false"
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        tools:text="12" />
+
+                    <TextView
+                        android:id="@+id/minutes"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppins_medium"
+                        android:includeFontPadding="false"
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        tools:text="32" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-6dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppins_medium"
+                        android:includeFontPadding="false"
+                        android:text="@string/days"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textSize="10sp" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppins_medium"
+                        android:includeFontPadding="false"
+                        android:text="@string/hours"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppins_medium"
+                        android:includeFontPadding="false"
+                        android:text="@string/minutes"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textSize="10sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

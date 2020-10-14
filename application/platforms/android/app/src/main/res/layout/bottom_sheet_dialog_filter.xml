@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/order_by"
+            android:textSize="18dp" />
+
+
+        <com.bonacogo.gameplate.radiobutton.PresetRadioGroup
+            android:id="@+id/radio_order_by"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_marginBottom="13dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <com.bonacogo.gameplate.radiobutton.PresetValueButton
+                android:id="@+id/button_0"
+                style="@style/PresetLayoutButton"
+                app:presetButtonPressedTextColor="@color/white"
+                app:presetButtonValueText="@string/relevance"
+                app:presetButtonValueTextColor="@color/black70"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <com.bonacogo.gameplate.radiobutton.PresetValueButton
+                android:id="@+id/button_1"
+                style="@style/PresetLayoutButton"
+                app:presetButtonPressedTextColor="@color/white"
+                app:presetButtonValueText="@string/award"
+                app:presetButtonValueTextColor="@color/black70"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </com.bonacogo.gameplate.radiobutton.PresetRadioGroup>
+
+
+    </LinearLayout>
+</FrameLayout>

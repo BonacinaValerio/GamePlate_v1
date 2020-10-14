@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primaryColor">#1976D2</color>
+    <color name="primaryDarkColor">#003C8F</color>
+    <color name="primaryLightColor">#63A4FF</color>
+
+    <color name="secondaryColor">#5892F6</color>
+    <color name="secondaryDarkColor">#2D587D</color>
+    <color name="secondaryLightColor">#B1CDFF</color>
+    <color name="secondaryLightColor40">#66B1CDFF</color>
+
+    <color name="white">#ffffff</color>
+    <color name="white60">#99FFFFFF</color>
+    <color name="gold">#E7711B</color>
+    <color name="lightGray">#DDDDDD</color>
+    <color name="lightGray2">#C1C1C1</color>
+    <color name="lightGray3">#f2f2f2</color>
+    <color name="bottomNav">#fafafa</color>
+    <color name="gray">#808080</color>
+    <color name="black">#000000</color>
+    <color name="black10">#1A000000</color>
+    <color name="black20">#33000000</color>
+    <color name="black30">#4D000000</color>
+    <color name="black40">#66000000</color>
+    <color name="black50">#80000000</color>
+    <color name="black60">#99000000</color>
+    <color name="black70">#B3000000</color>
+    <color name="black80">#CC000000</color>
+
+    <color name="primaryTextColor">#FFFFFF</color>
+
+    <color name="rippleColor">#57000000</color>
+    <color name="errorColor">#E12424</color>
+    <color name="errorLightColor">#DF6161</color>
+
+    <color name="backgroundLogo">@color/secondaryDarkColor</color>
+
+</resources>

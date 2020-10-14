@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:elevation="1dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="0dp">
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_game_bg">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="10dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/lightGray"
+                    android:minWidth="100dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="5dp"
+                        tool:srcCompat="@drawable/ic_play" />
+
+                    <TextView
+                        android:id="@+id/game"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_medium"
+                        android:textColor="@color/black80"
+                        android:textSize="14sp"
+                        tool:text="FlapShimi" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@color/lightGray"
+                    android:minWidth="180dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="0"
+                        android:adjustViewBounds="true"
+                        tool:srcCompat="@drawable/ic_restaurant" />
+
+                    <TextView
+                        android:id="@+id/restaurant"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_medium"
+                        android:includeFontPadding="false"
+                        android:textColor="@color/black60"
+                        android:textSize="12sp"
+                        tool:text="Ouya Gourmet • Sushi" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:background="@color/lightGray"
+                    android:minWidth="130dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/rating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="4dp"
+                        android:layout_weight="0"
+                        android:fontFamily="@font/poppins_medium"
+                        android:includeFontPadding="false"
+                        android:textColor="@color/gold"
+                        android:textSize="12sp"
+                        tool:text="4,0" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:layout_weight="0"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/star_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="2dp"
+                            android:layout_weight="0"
+                            android:tint="@color/lightGray2"
+                            tool:srcCompat="@drawable/ic_star_full" />
+
+                        <ImageView
+                            android:id="@+id/star_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="2dp"
+                            android:layout_weight="0"
+                            android:tint="@color/lightGray2"
+                            tool:srcCompat="@drawable/ic_star_full" />
+
+                        <ImageView
+                            android:id="@+id/star_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="2dp"
+                            android:layout_weight="0"
+                            android:tint="@color/lightGray2"
+                            tool:srcCompat="@drawable/ic_star_full" />
+
+                        <ImageView
+                            android:id="@+id/star_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="2dp"
+                            android:layout_weight="0"
+                            android:tint="@color/lightGray2"
+                            tool:srcCompat="@drawable/ic_star_full" />
+
+                        <ImageView
+                            android:id="@+id/star_5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0"
+                            android:tint="@color/lightGray2"
+                            tool:srcCompat="@drawable/ic_star_full" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/num_feedback"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:layout_weight="0"
+                        android:fontFamily="@font/poppins_medium"
+                        android:includeFontPadding="false"
+                        android:textColor="@color/lightGray2"
+                        android:textSize="12sp"
+                        tool:text="(213)" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="0"
+                    android:background="@color/lightGray"
+                    android:minWidth="160dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:includeFontPadding="false"
+                        android:lineSpacingExtra="0sp"
+                        android:lineSpacingMultiplier="0.7"
+                        android:textColor="@color/black40"
+                        android:textSize="12sp"
+                        tool:text="Milano Bicocca (MI),\nVia Chiese" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <com.bonacogo.gameplate.other.MaskableFrameLayout
+                android:id="@+id/frm_mask_animated"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                app:mask="@drawable/ic_mask_holder_img"
+                app:porterduffxfermode="DST_IN">
+
+                <ImageView
+                    android:id="@+id/img_game"
+                    android:layout_width="140sp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/background_shape_preset_button__pressed"
+                    android:tint="@color/lightGray" />
+            </com.bonacogo.gameplate.other.MaskableFrameLayout>
+
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</LinearLayout>

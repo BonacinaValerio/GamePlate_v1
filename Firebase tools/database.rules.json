@@ -1,0 +1,46 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "game": {
+      "$game": {
+        ".read": "auth !== null",
+      }
+    },
+    "owners": {
+      "coordinates": {
+        ".indexOn": ["lat"],
+      },
+    },
+    "users": {
+      "$uid": {
+        ".read": "auth !== null && $uid == auth.uid",
+        "reward": {
+          ".indexOn": ["deadline"],   
+        },
+        "notificationTokens": {
+          ".write": "auth !== null && $uid == auth.uid",
+        },
+        "enableNotification": {
+          ".write": "auth !== null && $uid == auth.uid",
+        },
+        "lang": {
+          ".write": "auth !== null && $uid == auth.uid",
+        }
+      },
+    },
+    "rankings": {
+      "$game": {
+        "$type": {
+          "$score": {
+            ".indexOn": ["index"],
+          }
+        },
+        ".read": "auth !== null",
+      },
+    },
+    "strings": {
+      ".read": "auth !== null",
+    }
+  }
+}

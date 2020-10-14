@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="loading">Caricamento…</string>
+
+
+    <string name="permission_rationale">I permessi di localizzazione sono necessari per il funzionamento dell\'app.</string>
+    <string name="permission_denied_explanation">Il permesso è stato negato, ma è necessario per il funzionamento dell\'app</string>
+    <string name="settings">Impostazioni</string>
+
+
+    <string name="verification_mail_sent">Email di verifica inviata a&#160;</string>
+    <string name="error_mail_not_sent">Errore. Email non inviata.</string>
+    <string name="error_try_later">Errore. Riprova più tardi</string>
+    <string name="error">Errore</string>
+    <string name="unknown_error">Errore sconosciuto</string>
+    <string name="wrong_credentials">Credenziali errate</string>
+    <string name="user_not_exist">Utente inesistente</string>
+    <string name="account_disabled">Account disabilitato</string>
+    <string name="email_not_valid">Email non valida.</string>
+    <string name="required_field">Campo obbligatorio.</string>
+    <string name="auth_failed">Autenticazione non riuscita.</string>
+    <string name="error_set_token">Errore token</string>
+    <string name="email_sent_to">Email inviata a&#160;</string>
+    <string name="game">Gioco:&#160;</string>
+    <string name="restaurant">Ristorante:&#160;</string>
+    <string name="games_played">Partite giocate:&#160;</string>
+    <string name="ok">OK</string>
+    <string name="see_details_upper">vedi dettagli</string>
+    <string name="ticket_expired_on">Ticket scaduto il:&#160;</string>
+    <string name="ticket_used_on">Ticket già usato il:&#160;</string>
+    <string name="ticket_successful">Ticket riscattato!</string>
+    <string name="recently_played">Giocati di recente</string>
+    <string name="welcome">Benvenuto</string>
+    <string name="register">Registrati</string>
+    <string name="weak_password"><![CDATA[password debole (< 6 caratteri)]]></string>
+    <string name="email_already_registered">email già registrata</string>
+    <string name="not_matching_passwords">Le due password non coincidono</string>
+    <string name="at_least_6_chars">Inserire almeno 6 caratteri.</string>
+    <string name="results_for">Risultati per:&#160;</string>
+    <string name="results">Risultati</string>
+    <string name="notifications_enabled">notifiche abilitate</string>
+    <string name="notifications_disabled">notifiche disabilitate</string>
+    <string name="you_won">Hai vinto </string>
+    <string name="at">presso:</string>
+    <string name="nickname_already_used">Nickname già utilizzato</string>
+    <string name="insert_different_nickname">Inserisci un nickname diverso.</string>
+
+    <string name="Tutorial01_poncho1">Hey! Benvenuto in GamePlate!\nLascia che mi presenti.\nIl mio nome è Poncho.</string>
+    <string name="Tutorial01_poncho2">GamePlate è l\'unico posto dove puoi vincere deliziosi premi semplicemente giocando!</string>
+    <string name="Tutorial01_poncho3">Si esatto, deliziosi! Perchè qui ogni premio è offerto da ristoranti situati vicino a te.</string>
+    <string name="Tutorial01_poncho4">Perciò cosa stai aspettando?\nGioca, vinci e… mangia!</string>
+    <string name="Tutorial01_user1">Ciao!</string>
+    <string name="Tutorial01_user2">Deliziosi?</string>
+    <string name="Tutorial01_user3">Fantastico!</string>
+    <string name="Tutorial01_user4">Iniziamo!</string>
+
+    <string name="distance">Distanza</string>
+    <string name="_10_km">10 km</string>
+    <string name="_50_km">50 km</string>
+    <string name="order_by">Ordina per</string>
+    <string name="award">Premi</string>
+    <string name="profile">Profilo</string>
+    <string name="no_awards_yet">Sembra che tu non abbia ancora vinto nessun premio.\nNon demordere! Facciamo il tifo per te!</string>
+    <string name="no_games_found">Nessun gioco trovato</string>
+    <string name="ranking">Classifiche</string>
+    <string name="play">Gioca</string>
+    <string name="visit_website">visita il sito</string>
+    <string name="show_on_map">vedi sulla mappa</string>
+    <string name="relevance">Rilevanza</string>
+    <string name="insert_password_again">Reinserisci la password</string>
+    <string name="forgot_password">Hai dimenticato la password?</string>
+    <string name="register_long">Registrati per entrare nel fantastico mondo di GamePlate!</string>
+    <string name="register_later">Registrami più tardi</string>
+    <string name="already_have_account">Hai già un account?</string>
+    <string name="login">Login</string>
+    <string name="change_nickname">Modifica il nickname</string>
+    <string name="not_verified_account">Account non verificato</string>
+    <string name="send_again_verification_mail">Rinvia email di verifica</string>
+    <string name="admin_account">Account admin</string>
+    <string name="use_ticket">Riscatta ticket</string>
+    <string name="no_ranking">Sembra che tu non abbia giocato a nessun gioco di recente.\nInizia a giocare per vedere qui le tue classifiche!</string>
+    <string name="weekly">settimanale</string>
+    <string name="global">globale</string>
+    <string name="allow_notifications">Consenti notifiche</string>
+    <string name="contact_us">contattaci</string>
+    <string name="days">giorni</string>
+    <string name="hours">ore</string>
+    <string name="minutes">minuti</string>
+    <string name="congratulations">Congratulazioni!</string>
+    <string name="here_your_code">Ecco il tuo codice:</string>
+    <string name="offer_details">Dettagli offerta</string>
+    <string name="you_won_a_ticket">Hai vinto 1 ticket</string>
+    <string name="expires_in">scade tra:</string>
+    <string name="choose_nickname">Scegli il tuo nickname</string>
+    <string name="insert_nickname">Inserisci il tuo nickname mostrato in gioco</string>
+    <string name="nickname">Nickname</string>
+    <string name="cancel">Annulla</string>
+    <string name="confirm">Conferma</string>
+    <string name="want_reset_password_email_question">Vuoi ricevere la mail per il reset della password?</string>
+    <string name="insert_account_email">Inserisci la mail del tuo account</string>
+    <string name="email">Email</string>
+    <string name="send_email">Invia email</string>
+    <string name="no_rankings_found">Nessuna classifica trovata</string>
+    <string name="award_details">Dettagli premio</string>
+    <string name="search_here">cerca qui</string>
+    <string name="hint_searchview">Cerca luoghi, ristoranti, giochi</string>
+    <string name="exit">Esci</string>
+    <string name="error_email_not_verified">Errore. Email non verificata</string>
+
+
+</resources>

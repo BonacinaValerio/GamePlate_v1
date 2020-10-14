@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.bonacogo.gameplate"
+    version="1.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.w3.org/ns/widgets">
+    <feature name="Whitelist">
+        <param
+            name="android-package"
+            value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param
+            name="onload"
+            value="true" />
+    </feature>
+    <name>GamePlate</name>
+    <description>
+        App GamePlate
+    </description>
+    <author>
+        Bonacina Valerio &amp; Cogo Luca
+    </author>
+    <preference name="ShowTitle" value="true" />
+    <content src="https://gameplate-f161e.firebaseapp.com/" />
+    <access origin="https://gameplate-f161e.firebaseapp.com/*" />
+    <allow-navigation href="https://gameplate-f161e.firebaseapp.com/*" />
+
+    <preference
+        name="loglevel"
+        value="DEBUG" />
+    <feature name="PluginFirebaseGameplate">
+        <param
+            name="android-package"
+            value="com.bonacogo.cordova.plugin.PluginFirebaseGameplate" />
+    </feature>
+</widget>

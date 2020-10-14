@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name" translatable="false">GamePlate</string>
+    <string name="launcher_name" translatable="false">@string/app_name</string>
+    <string name="activity_name" translatable="false">@string/launcher_name</string>
+
+    <string name="facebook_app_id" translatable="false"></string>
+    <string name="fb_login_protocol_scheme" translatable="false"></string>
+
+    <string name="google_maps_key" translatable="false"></string>
+
+    <string name="open_cage_api_key" translatable="false"></string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="default_notification_channel_name" translatable="false">Notification</string>
+
+    <string name="loading">Loading…</string>
+
+
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core
+        functionality.</string>
+    <string name="settings">Settings</string>
+
+
+    <string name="verification_mail_sent">Verification email sent to&#160;</string>
+    <string name="error_mail_not_sent">Error. Email not sent</string>
+    <string name="error_try_later">Error. Try later</string>
+    <string name="error">Error</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="wrong_credentials">Wrong credentials</string>
+    <string name="user_not_exist">Not existing user</string>
+    <string name="account_disabled">Disabled account</string>
+    <string name="email_not_valid">Not valid email</string>
+    <string name="required_field">Required field.</string>
+    <string name="auth_failed">Authentication failed.</string>
+    <string name="error_set_token">Error on set token</string>
+    <string name="email_sent_to">Email sent to&#160;</string>
+    <string name="game">Game:&#160;</string>
+    <string name="restaurant">Restaurant:&#160;</string>
+    <string name="games_played">Played games:&#160;</string>
+    <string name="ok">OK</string>
+    <string name="see_details_upper">see details</string>
+    <string name="ticket_expired_on">Ticket expired on:&#160;</string>
+    <string name="ticket_used_on">Ticket used on:&#160;</string>
+    <string name="ticket_successful">Ticket successfully used!</string>
+    <string name="recently_played">Recently played</string>
+    <string name="welcome">Welcome</string>
+    <string name="register">Register</string>
+    <string name="weak_password"><![CDATA[weak password (< 6 characters)]]></string>
+    <string name="email_already_registered">Already registered email</string>
+    <string name="not_matching_passwords">Password 1 and 2 don\'t match</string>
+    <string name="at_least_6_chars">Insert at least 6 characters.</string>
+    <string name="results_for">Results for:&#160;</string>
+    <string name="results">Results</string>
+    <string name="notifications_enabled">notifications enabled</string>
+    <string name="notifications_disabled">notifications disabled</string>
+    <string name="you_won">You won</string>
+    <string name="at">at:</string>
+    <string name="nickname_already_used">Already used nickname</string>
+    <string name="insert_different_nickname">Insert different nickname.</string>
+
+    <string name="Tutorial01_poncho1">Hey! Welcome to GamePlate!\nLet me introduce myself.\nMy name is Poncho.</string>
+    <string name="Tutorial01_poncho2">GamePlate is the only place where you can win delicious awards simply by playing!</string>
+    <string name="Tutorial01_poncho3">Yeah, delicious awards! Because here every prize is offered by the restaurants near you.</string>
+    <string name="Tutorial01_poncho4">What are you waiting for?\nPlay, win and… eat!</string>
+    <string name="Tutorial01_user1">Hi!</string>
+    <string name="Tutorial01_user2">Delicious?</string>
+    <string name="Tutorial01_user3">Awesome!</string>
+    <string name="Tutorial01_user4">Let\'s get started!</string>
+
+    <string name="distance">Distance</string>
+    <string name="_10_km">10 km</string>
+    <string name="_50_km">50 km</string>
+    <string name="order_by">Order by</string>
+    <string name="award">Awards</string>
+    <string name="profile">Profile</string>
+    <string name="no_awards_yet">Seems like you have not won any award yet.\nDon\'t give up! We\'re rooting for you!</string>
+    <string name="no_games_found">No games found</string>
+    <string name="ranking">Rankings</string>
+    <string name="play">Play</string>
+    <string name="visit_website">visit website</string>
+    <string name="show_on_map">show on map</string>
+    <string name="relevance">Relevance</string>
+    <string name="insert_password_again">Insert password again</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="register_long">Register and enter the fantastic world of GamePlate!</string>
+    <string name="register_later">Register later</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="login">Login</string>
+    <string name="change_nickname">Change nickname</string>
+    <string name="not_verified_account">Not verified account</string>
+    <string name="send_again_verification_mail">Send verification mail again</string>
+    <string name="admin_account">Admin account</string>
+    <string name="use_ticket">Use ticket</string>
+    <string name="no_ranking">Seems like you have not played any games recently.\nStart playing in order to see here your rankings!</string>
+    <string name="weekly">weekly</string>
+    <string name="global">global</string>
+    <string name="allow_notifications">Allow notifications</string>
+    <string name="contact_us">contact us</string>
+    <string name="days">days</string>
+    <string name="hours">hours</string>
+    <string name="minutes">minutes</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="here_your_code">Here is your code:</string>
+    <string name="offer_details">Offer details</string>
+    <string name="you_won_a_ticket">You\'ve won a ticket</string>
+    <string name="expires_in">expires in:</string>
+    <string name="choose_nickname">Choose your nickname</string>
+    <string name="insert_nickname">Choose the nickname to show in games</string>
+    <string name="nickname">Nickname</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="want_reset_password_email_question">Do you want us to send a mail to reset your password?</string>
+    <string name="insert_account_email">Insert the email of your account</string>
+    <string name="email">Email</string>
+    <string name="send_email">Send email</string>
+    <string name="no_rankings_found">No rankings found</string>
+    <string name="award_details">Award details</string>
+    <string name="search_here">search here</string>
+    <string name="hint_searchview">Find places, restaurants, games</string>
+    <string name="exit">Exit</string>
+    <string name="error_email_not_verified">Error. Email not verified</string>
+
+</resources>

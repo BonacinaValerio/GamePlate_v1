@@ -1,0 +1,18 @@
+{
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-firebase-gameplate": {
+    "source": {
+      "type": "local",
+      "path": "F:\\raccolte\\Documenti\\Gameplate\\CordovaApp_Gameplate\\node_modules\\cordova-plugin-firebase-gameplate"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}
